@@ -1,0 +1,97 @@
+Online Bug Tracking System
+
+ABSTRACT:
+In software development, bugs or errors, flaws, or unintended behaviors in a system can significantly impact functionality, performance, and user experience. Identifying and resolving these issues efficiently is crucial to ensuring high-quality software. As software applications grow in complexity, manual tracking of bugs becomes inefficient and prone to errors. To address this challenge, organizations rely on Bug Tracking Systems, which help streamline the process of identifying, reporting, assigning, and resolving bugs systematically.
+
+The Online Bug Tracking System is a web-based application developed using Java as the coding language, JSP, CSS, and JavaScript for the frontend and MySQL for the database. This system is designed to facilitate effective bug management by providing a structured workflow involving three primary roles: Manager, Team Leader, and Developer.
+
+The primary goal of this project is to develop a web-based bug tracking system that enables Managers, Team Leaders, and Developers to report, track, assign, and resolve bugs systematically. This system will streamline the bug resolution process, improve team collaboration, and enhance software quality by ensuring proper tracking and updates.
+
+The Online Bug Tracking System provides a structured and automated approach to bug reporting, assignment, tracking, and resolution. It allows managers to activate developers, team leaders to assign and track bugs, and developers to update the bug status. The system maintains a history log to track each bug’s progress and ensures transparency in the debugging process.
+
+This Online Bug Tracking System enhances collaboration between managers, team leaders, and developers, ensuring a systematic and transparent workflow for bug resolution. By automating bug tracking and maintaining a centralized database, the system improves efficiency, reduces response time, and helps maintain software quality.
+
+
+
+SYSTEM REQUIREMENTS:
+HARDWARE REQUIREMENTS: 
+System : Pentium i3 Processor.
+Hard Disk : 20 GB.
+Monitor : 15’’ LED.
+Input Devices : Keyboard, Mouse.
+Ram : 4 GB.
+
+
+SOFTWARE REQUIREMENTS: 
+Operating system : Windows 10/11.
+Coding Language : JAVA.
+Frontend : JSP, CSS, JavaScript.
+JDK Version : JDK 23.0.1.
+IDE Tool : Apache Netbeans IDE 24.
+Tomcat Server Version : Apache Tomcat 9.0.84
+Database : MYSQL.
+
+
+
+
+
+
+ADVANTAGES OF PROPOSED SYSTEM:
+The Online Bug Tracking System offers several advantages that enhance the efficiency, accuracy, and overall management of software bugs. By automating the bug tracking process, it ensures seamless coordination between Managers, Team Leaders, and Developers while improving workflow transparency.
+Automated Bug Tracking and Management: The proposed system eliminates the need for manual documentation and automates the process of bug tracking, making it more efficient and error-free. Bugs can be logged, assigned, and monitored in a structured and organized manner.
+Real-Time Bug Status Updates: In the proposed system, Developers can update bug statuses (Rectified, Not Rectified, Working on it) in real-time, allowing Team Leaders and Managers to track progress instantly. This ensures faster resolution and better coordination.
+Centralized System for Better Organization: The proposed system provides a centralized platform where all bug reports, developer details, and status updates are stored in a structured database. This improves accessibility and prevents data loss.
+Efficient Bug Assignment and Resolution: In the proposed system, the Team Leader can assign bugs to the appropriate developer based on their expertise (Java, .NET, Android), ensuring that issues are handled by the right person, leading to quicker resolution times.
+Enhanced Collaboration and Communication: The proposed system enables seamless communication between Developers, Team Leaders, and Managers. All stakeholders can access real-time updates, bug reports, and assigned tasks, reducing dependency on emails or manual reports.
+Comprehensive Bug History and Audit Trail: In the proposed system, the Trace History of Bug module allows Managers to monitor and review all bug-related activities, ensuring accountability and maintaining a detailed audit trail for future analysis.
+Prioritization of Bugs Based on Criticality: The proposed system allows Team Leaders to categorize bugs based on Critical Level (High, Medium, and Low), ensuring that urgent issues are resolved first, and minimizing potential software failures.
+User-Friendly Interface and Easy Accessibility: The proposed system provides an intuitive and user-friendly interface, making it easy for developers, team leaders, and managers to navigate and operate without extensive technical knowledge.
+Secure Access and Role-Based Authentication: Different users (Managers, Team Leaders, and Developers) have role-based access, ensuring that only authorized personnel can view and update specific information, enhancing data security.
+Improved Software Quality and Reliability: By ensuring effective bug tracking, prioritization, and resolution, the system contributes to improved software stability, performance, and reliability, ultimately leading to a better user experience.
+The Online Bug Tracking System significantly improves the efficiency of software development teams, providing a structured, automated, and collaborative approach to managing and resolving bugs.
+
+
+
+DISADVANTAGES OF EXISTING SYSTEM:
+Although the earlier system facilitated bug tracking, it had several limitations that affected efficiency, accuracy, and overall project management.
+
+Manual Effort and Time-Consuming Process: Since the existing system relied heavily on spreadsheets, emails, or basic documentation, tracking and updating bugs required significant manual effort. Developers, testers, and managers had to search, review, and update records manually, leading to delays in bug resolution.
+Lack of Real-Time Updates: The absence of an automated system meant that updates on bug status were not available in real-time. Developers had to rely on periodic reports or direct communication, which could lead to delays in resolving critical issues.
+Difficulty in Bug Assignment and Tracking: Without a centralized system, assigning bugs to the right developer and tracking their status was challenging. Managers and team leaders had to manually check records, leading to miscommunication or oversight in task assignments.
+Limited Collaboration and Communication: Since the existing system relied on emails or basic ticketing systems, collaboration between developers, testers, and project managers was not seamless. Important updates, discussions, or dependencies were often lost in long email threads or unstructured documents.
+Lack of Proper Historical Records and Audit Trails: Maintaining a structured history of bug reports, status updates, and developer actions was difficult. Tracking past bugs for future reference or analyzing patterns of recurring issues was not efficient, making it harder to improve software quality over time.
+Risk of Data Loss and Inconsistencies: Manual documentation and spreadsheet-based tracking systems were prone to data loss, duplication, or inconsistency. Errors in bug descriptions, missing updates, or accidental deletion of records could impact the accuracy of bug tracking.
+Difficulty in Prioritization and Critical Issue Management: Since bugs were manually documented, prioritizing them based on severity levels (High, Medium, and Low) was not always effective. Critical issues might go unnoticed or get delayed, impacting the software’s stability and performance.
+Overall, the earlier system lacked automation, real-time tracking, and efficient collaboration, making bug management a time-consuming and error-prone process.
+
+
+
+
+
+PROPOSED SYSTEM:
+The Online Bug Tracking System is designed to provide an efficient and automated approach to managing software bugs. It streamlines the process of bug identification, assignment, tracking, and resolution by integrating a structured workflow for Managers, Team Leaders, and Developers. The system is developed using Java as the coding language, JSP, CSS, and JavaScript for the frontend and MySQL for the database.
+The system begins with a Developer Registration Module, where new developers can register by providing essential details such as Name, Email, Password, Domain (Java, .NET, or Android), Date of Birth, Phone Number, and Location. Once registered, the Manager logs in using a default username and password to review and activate the developers, assigning them to their respective domains.
+After activation, the Team Leader logs in and gains access to multiple functionalities, including Affix New Bug, Analyze Bug Report, Bug Check, and Bug Status Tracking. The Affix New Bug feature allows the Team Leader to report a bug by entering details such as Bug Summary, Bug Description, Platform, Product, and Critical Level (High, Medium, or Low). Through the Analyze Bug Report module, the Team Leader can search for specific bugs using their summary. In the Bug Check feature, the Team Leader assigns the bug to the appropriate developer based on their expertise.
+When a Developer logs into the system, they can view assigned bugs in the Triage Inbox section. The developer can update the bug’s status as Rectified, Not Rectified, or Working on it through the Update Option, which is then reflected in the Team Leader’s dashboard for review.
+Additionally, the system maintains a Trace History of Bug module, where the Manager can monitor the entire bug resolution process, including details such as Bug ID, Date & Time, Developer Name, Assigned/Completed Status, and Bug Summary. This ensures that all activities are recorded for future reference and analysis.
+The Online Bug Tracking System provides a structured and centralized approach to bug management, ensuring seamless coordination between developers, team leaders, and managers.
+
+
+
+
+
+
+EXISTING SYSTEM:
+In the existing system, bug tracking and management were typically handled through manual processes or basic documentation methods. Software development teams relied on spreadsheets, emails, or standalone databases to record and monitor bug reports. Developers, testers, and managers communicated through emails or direct messaging to report issues, assign tasks, and track progress.
+In the existing system, Bug reports were generally maintained in text documents or spreadsheets, where details such as bug descriptions, severity levels, affected modules, and assigned developers were manually recorded. Developers would regularly check these records to identify issues assigned to them and update their status accordingly. Testing teams documented bug reports and forwarded them to project managers or team leads, who manually assigned them to appropriate developers for resolution.
+In the existing system, to facilitate tracking, some organizations used basic ticketing systems where bugs were logged with an identifier, description, priority level, and status. Team leaders manually reviewed these tickets and updated them based on developer feedback. In some cases, development teams integrated basic bug-tracking functionality within project management tools to monitor progress.
+The system ensured that bug reports were documented and assigned to developers for resolution, providing a structured approach to handling software defects. It enabled teams to maintain a record of identified bugs, monitor their resolution, and ensure proper communication among developers, testers, and project managers.
+
+
+
+
+
+
+
+
+
